@@ -1,2 +1,96 @@
-body {
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.header {
+    color: #FFF;
+    background-color: #1F2937;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 120px;
+    font-family: 'Roboto';
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero-subtext {
+    margin-bottom: 8px;
+}
+
+.header-img {
+    height: 200px;
+    width: 700px;
+}
+
+.big-pieces {
+    display: flex;
+    padding: 80px 0;
+
+}
+
+.info-header-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    flex: 1;
+}
+
+.footer {
+    color: #FFF;
+    background-color: #1F2937;
+    flex: 1;
+}
+
+.sign-up-button {
+    background-color: #3882F6;
+    color: #FFF;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.small-img {
+    height: 200px;
+    width: 200px;
+}
+
+.items {
+    display: flex;
 }
