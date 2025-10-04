@@ -1,5 +1,7 @@
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 .content {
@@ -15,13 +17,13 @@ ul {
     gap: 24px;
 }
 
+
 a {
     text-decoration: none;
-    color: #FFF;
+    color: #E5E7EB;
 }
 
 .header {
-    color: #FFF;
     background-color: #1F2937;
     flex: 1;
     display: flex;
@@ -34,17 +36,15 @@ a {
     color: #F9FAF8;
 }
 
+
 .links {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex: 1;
 }
 
-.header-links,
-.hero-subtext {
-    font-size: 18px;
-    color: #E5E7EB;
-}
+
 
 .hero-container {
     display: flex;
@@ -60,35 +60,47 @@ a {
 
 .hero-subtext {
     margin-bottom: 8px;
+    color: #E5E7EB;
+    max-width: 500px;
 }
 
 .header-img {
     height: 200px;
-    width: 700px;
+    width: 500px;
 }
 
 .big-pieces {
     display: flex;
     padding: 80px 0;
-
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .quote-section {
     background-color: #E5E7EB;
-    font-size: 36px;
-    font-weight: 100;
-    color: #1F2937;
-    flex: 1;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 80px;
+    padding: 80px 180px;
 }
 
-.quote-attribution {
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    align-items: flex-end;
+}
+
+.quote {
+    font-size: 36px;
     font-weight: 300;
+    color: #1F2937;
+}
+
+.attribution {
+    font-weight: 700;
+    font-size: 20px;
 }
 
 
@@ -111,6 +123,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .info-header-text {
@@ -121,40 +134,47 @@ a {
 }
 
 .small-img {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border-radius: 0.5rem;
     border-color: #3882F6;
+    border-width: 4px;
+    border-style: solid;
 }
 
 .items {
     display: flex;
     margin-bottom: 80px;
     padding: 0 100px;
-    gap: 40px;
+    gap: 90px;
 }
 
 .item {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    flex: 1;
+    align-items: center;
     width: 150px;
+    text-align: center;
 }
 
 .banner {
     color: #FFF;
     display: flex;
     background-color: #3882F6;
-    margin: 60px 80px;
-    justify-content: space-between;
-    align-items: center;
-    padding: 32px 72px;
+    margin: 60px 0;
+    padding: 40px 80px;
     border-radius: 0.3rem;
+    max-width: 900px;
+    align-self: center;
+    gap: 40px;
 }
 
 .call-text {
     font-weight: bold;
+}
+
+.banner-subtext {
+    color: #E5E7EB;
 }
 
 .footer {
